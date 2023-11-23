@@ -1,0 +1,26 @@
+{
+  "name": "playlistyt",
+  "version": "1.0.0",
+  "description": "A small project on youtube ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshulkb/PlaylistYT.git"
+  },
+  "author": "Anshul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshulkb/PlaylistYT/issues"
+  },
+  "homepage": "https://github.com/Anshulkb/PlaylistYT#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "youtube-dl-exec": "^2.4.17",
+    "ytdl-core": "^4.11.5"
+  }
+}
