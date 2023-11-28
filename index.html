@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <!-- <script src="https://apis.google.com/js/api.js"></script> -->
+    <body>
+        <input type="text" id="input-el">
+        <button onclick="authenticate().then(loadClient)">authorize and load</button>
+
+        <button id="input-btn">SAVE INPUT</button>
+        <button id="tab-btn">SAVE TAB</button>
+        <button id="delete-btn">DELETE ALL</button>
+        <button id="input-btn2" onclick="execute()">SAVE Link</button>
+        <button onclick="play()">Play</button>
+        <button onclick="saveLink()">Save</button>
+
+        <ul id="ul-el">
+        </ul>
+        <h4 class="">Videos</h4>
+        <ul id="ul-el2"> </ul>
+        
+
+        <!-- <div class="write-section">
+            <h4 class="">Videos</h4>
+              <div class="write-container">
+                <iframe width="100%" height="600px" class="youtubeVideo">
+              </iframe>
+              </div> -->
+              <!-- <ul id="ul-el2"> </ul> -->
+           <!-- </div> -->
+           
+           <h1 class='heading'>Paste YouTube URL</h1>
+           <input class='URL-input' placeholder='https://www.youtube.com/watch?v=MtN1YnoL46Q' />
+           <select class='opt'>
+             <option value='mp3'>mp3</option>
+             <option value='mp4'>mp4</option>
+           </select>
+         
+           <button class='convert-button' id='btn'>Convert</button>
+
+
+           <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+           <script src="index.js"></script>
+           <!-- <script src="script.js"></script> -->
+    </body>
+</html>
