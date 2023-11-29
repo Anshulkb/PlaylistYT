@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A small project on youtube ",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,8 @@
     "axios": "^1.6.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "stream": "^0.0.2",
     "youtube-dl-exec": "^2.4.17",
     "ytdl-core": "^4.11.5"
   }
